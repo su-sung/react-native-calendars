@@ -22,7 +22,7 @@ class CalendarListItem extends Component {
     const r2 = nextProps.item;
     return (
       r1?.toString('yyyy MM') !== r2?.toString('yyyy MM') ||
-      !!(r2.propbump && r2.propbump !== r1.propbump)
+      !!(r2?.propbump && r2?.propbump !== r1?.propbump)
     );
   }
 
